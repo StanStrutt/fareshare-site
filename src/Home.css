@@ -1,0 +1,527 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.home-page {
+    width: 100%;
+}
+
+
+
+.tesco-collection {
+    background-image: url("https://fareshare.org.uk/wp-content/uploads/2024/10/tfc-home-24.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 0 15px;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tesco-collection-text {
+    background-color: rgba(46,46,46,.8);
+    float: left;
+    margin: 15px 0;
+    padding: 15px;
+    color: white;
+    width: 310px;
+    left: 32px;
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+.collection-h3 {
+    font-size: 2.2em;
+    color: #ffd300;
+    margin-top: 0;
+    margin-bottom: 16px;
+    
+}
+
+.collection-vol {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.food-button a{
+    margin: 0;
+    background-color: #ffd300;
+    width: max-content;
+    padding: 9px;
+    display: block;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: black;
+}
+
+.food-button a:hover {
+    background-color: #ffe02e;
+    transition-duration: 0.5s;
+}
+
+.food-button a:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+    color: #3e6121;
+    text-decoration: underline;
+}
+
+.stay-connected-segment {
+    width: 100%;
+    background-color: #7cc242;
+    padding: 30px 0;
+    box-sizing: border-box;
+    height: 280px;
+}
+
+.con-container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: static;
+    font-family: sans-serif;
+    height: 220px;
+}
+
+.connected-p {
+    width: 350px;
+    padding: 45px 15px 0 15px;
+    height: 146px;
+    position: relative;
+    float: left;
+}
+.connected-p p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0 0 16px;
+    position: static;
+}
+.connected-input-cont {
+    width: 350px;
+    float: left;
+    padding: 0 15px;
+}
+
+.connected-input {
+    width: 350px;
+}
+
+.connected-input h3 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 2em;
+}
+
+.con-first {
+    margin-bottom: 15px;
+    height: 43px;
+}
+
+.con-email {
+    margin-bottom: 15px;
+    height: 43px;
+}
+
+
+input {
+    width: 336px;
+    height: 29px;
+    border: none;
+    font-size: 1.3em;
+    padding: 7px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.con-button {
+    background-color: #dc0922;
+    border: 0;
+    color: #fff;
+    width: 153px;
+    height: 43px;
+    padding: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.con-button:hover {
+    background-color: #ed3945;
+    transition-duration: 0.5s;
+}
+
+.social-icons {
+    float: left;
+    padding: 0 15px;
+    position: relative;
+    width: 350px;
+}
+
+.social-inner {
+    margin: 49px auto;
+    width: 190px;
+    height: 40px;
+    position: static;
+    right: 400px;
+}
+
+.what-who-section {
+    width: 100%;
+    background-color: #019392;
+    color: #ffffff;
+    height: 270px;
+}
+
+.what-who-container {
+    width: 1140px;
+    padding: 0 15px;
+    height: 270px;
+    margin: 0 auto;
+}   
+
+.what-who {
+    margin: 0 -15px;
+    height: 240px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.who-text {
+    width: 555px;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+    padding: 0 15px;
+    height: 240px;
+}
+
+.who-h1 {
+    font-size: 44px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    height: 48px;
+    line-height: 1.1;
+}
+
+.who-p {
+    font-size: 22px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+    height: 154px;
+    line-height: 1.4;
+}
+
+.what-text {
+    margin-top: 30px;
+    width: 555px;
+    float: left;
+    position: relative;
+    padding: 0 15px;
+    height: 240px;
+}
+
+
+.what-h1 {
+    font-size: 44px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    height: 48px;
+    line-height: 1.1;
+}
+
+.what-p {
+    font-size: 22px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+    height: 154px;
+    line-height: 1.4;
+}
+
+.homepage-video {
+    background-color: #5ebfbc;
+    padding: 50px 0;
+}
+
+.hp-vid-container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.latest-news-cont {
+    padding: 0 15px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.latest-news-title {
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+    font-family:sans-serif ;
+}
+
+.latest-news-title h1{
+    font-size: 44px;
+    color: #5ebfbc;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.latest-news-wrapper {
+    width: 100%;
+    margin-bottom: 14px;
+    font-family: sans-serif;
+}
+
+.latest-news {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 520px;
+    box-sizing: border-box;
+}
+
+.news-1 {
+    width: 360px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    height: 393px;
+    position: relative;
+    float: left;
+}
+
+.news-1 a {
+    text-decoration: none;
+    color: black;
+    width: 360px;
+}
+
+.news-1 img {
+    border-bottom: 8px solid #5ebfbc;
+}
+
+.news-1 h2 {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 3px solid #f6f6f6;
+    border-right: 3px solid #f6f6f6;
+    border-bottom: 3px solid #f6f6f6;
+    margin-top: 0;
+    height: 207px;
+    width: 324px;
+}
+
+.news-2 {
+    width: 360px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    height: 490px;
+    position: relative;
+    float: left;
+}
+
+.news-2 a {
+    text-decoration: none;
+    color: black;
+    width: 360px;
+}
+
+.news-2 img {
+    border-bottom: 8px solid #5ebfbc;
+}
+
+.news-2 h2 {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 3px solid #f6f6f6;
+    border-right: 3px solid #f6f6f6;
+    border-bottom: 3px solid #f6f6f6;
+    margin-top: 0;
+    height: 207px;
+    width: 324px;
+}
+
+.news-3 {
+    width: 360px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    height: 490px;
+    position: relative;
+    float: right;
+}
+
+.news-3 a {
+    text-decoration: none;
+    color: black;
+    width: 360px;
+}
+
+.news-3 img {
+    border-bottom: 8px solid #5ebfbc;
+
+}
+
+.news-3 h2 {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 3px solid #f6f6f6;
+    border-right: 3px solid #f6f6f6;
+    border-bottom: 3px solid #f6f6f6;
+    margin-top: 0;
+    height: 207px;
+    width: 324px;
+}
+
+.where-to-find-us {
+    width: 100%;
+    height: 452px;
+    padding: 30px 0;
+    background-color: #7cc242;
+    font-family: sans-serif;
+}
+
+.where-to-find-us-container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 452px;
+}
+
+.regional-centres {
+    margin: 0 -15px;
+    height: 452px;
+}
+
+.regional-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.nearest-fs {
+    padding: 0 15px;
+    position: relative;
+    float: left;
+    height: 225px;
+}
+
+.postcode {
+    padding-bottom: 60px;
+}
+
+.postcode h3{
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 16px;
+    width: 262px;
+    height: 48px;
+    margin-top: 0;
+}
+
+.post-search {
+    padding: 7px;
+    margin: 15px 0;
+    display: block;
+    width: 248px;
+}
+
+.post-button {
+    background-color: #dc0922;
+    border: 0;
+    font-size: 1.3em;
+    width: 153px;
+    margin: 0;
+    padding: 7px;
+    color: #fff;
+    height: 43px;
+}
+
+.cities-container {
+    position: relative;
+    float: left;
+    padding: 0 15px;
+    width: 847px;
+    line-height: 1.4;
+}
+
+.cities-list {
+
+}
+
+.city-wrapper {
+    padding-right: 30px;
+    width: 241px;
+    text-align: left;
+    float: left;
+}
+
+.city-border {
+    border-bottom: 1px solid rgba(255,255,255,.4);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.city-border a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: inline;
+}
+
+.city-border a:hover {
+    color: rgba(0,0,0,.5);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+
+.city-border a:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+
+.fs-logo-wrapper {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo-top-wrapper {
+    margin: 0 -15px;
+    height: 158.4px;
+}
+
+.logo-bottom-wrapper {
+    margin: 0 -15px;
+    height: 158.4px;
+}
+
+.logo-top {
+    padding: 0 15px;
+}
+
+.logo-bottom {
+    padding: 0 15px;
+}
+
+.fs-logo-wrapper p {
+    margin-bottom: 16px;
+    height: 22px;
+    margin-top: 0px;
+}
+
+.img-holder {
+    width: 255px;   
+    padding: 0 15px;
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
